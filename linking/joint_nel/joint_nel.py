@@ -458,7 +458,6 @@ def str2bool(v):
 
 
 if __name__ == '__main__':
-    #python joint_nel.py -data_path /home/s1959796/csqparsing/condata/spice_dataset/CSQA_v9_skg.v6_compar_spqres9_subkg2_tyTop_nelctx_cleaned_nelg2 -save_path temp_save -split valid -kg_folder /home/s1959796/csqparsing/condata/spice_dataset
     parser = argparse.ArgumentParser()
     parser.add_argument("-data_path", required=False)
     parser.add_argument("-save_path", required=True)

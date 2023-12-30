@@ -1,7 +1,7 @@
 import json, os
 
 
-data_path='/home/s1959796/spice_dataset_project/spice_project/nel_scripts/wikidata_proc_json/wikidata_proc_json_2/'
+data_path='wikidata_proc_json/wikidata_proc_json_2/'
 file_list = ['filtered_property_wikidata4.json' , 'items_wikidata_n.json']
 
 for filename in file_list:

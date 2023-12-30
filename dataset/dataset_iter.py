@@ -130,8 +130,7 @@ class ContextGraphIterableDataset(IterableDataset):
             self.collate_fn = self.collate_fn_raw_jsonl
             self.preprocess = self.preprocess_jsonl
         elif iter_type == ITER_JSONL:
-            #self.filename =  os.path.join(self.data_path, self.split, 'all'+split+'.jsonl')
-            self.filename =  os.path.join('/disk/scratch1/s1959796/trainsmall.jsonl')
+            self.filename =  os.path.join(self.data_path, self.split, 'all'+split+'.jsonl')
             print('Loading file ', self.filename)
             self.file_iter = None
             self.collate_fn = self.collate_fn_raw_jsonl
